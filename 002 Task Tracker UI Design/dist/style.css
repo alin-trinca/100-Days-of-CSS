@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+:root {
+  --color-primary: #ed5565;
+  --color-secondary: #a0d468;
+  --color-tertiary: #f6bb42;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  background: #0f172a;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.column {
+  margin-top: 15px;
+  width: 350px;
+}
+.column__header {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+.column__num {
+  margin-left: 5px;
+  background-color: #fff;
+  padding: 3px 6px;
+  border-radius: 3px;
+  color: #1976d2;
+}
+
+.box {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-left: 10px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 15px 0;
+  transition: all 0.2s;
+}
+.box:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.23);
+}
+.box__tag {
+  padding: 5px 10px;
+  display: inline-block;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.box__text {
+  font-size: 1.5rem;
+}
+.box__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 1.3rem;
+  color: #535353;
+}
+.box__footer i {
+  margin-right: 5px;
+}
+.box__date {
+  display: flex;
+  align-items: center;
+}
+.box__icons {
+  display: flex;
+  align-items: center;
+}
+.box__icons i:hover {
+  color: black;
+}
+.box__icons i + i {
+  margin-left: 5px;
+}
+.box--red {
+  border-color: var(--color-primary);
+}
+.box--red .box__tag {
+  background-color: var(--color-primary);
+}
+.box--green {
+  border-color: var(--color-secondary);
+}
+.box--green .box__tag {
+  background-color: var(--color-secondary);
+}
+.box--yellow {
+  border-color: var(--color-tertiary);
+}
+.box--yellow .box__tag {
+  background-color: var(--color-tertiary);
+}

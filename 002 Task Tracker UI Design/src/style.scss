@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --color-primary: #ed5565;
+  --color-secondary: #a0d468;
+  --color-tertiary: #f6bb42;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  background: #0f172a;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.column {
+  margin-top: 15px;
+  width: 350px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+  }
+
+  &__num {
+    margin-left: 5px;
+    background-color: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    color: #1976d2;
+  }
+}
+
+.box {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-left: 10px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 15px 0;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.23);
+  }
+
+  &__tag {
+    padding: 5px 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #535353;
+
+    i {
+      margin-right: 5px;
+    }
+  }
+
+  &__date {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icons {
+    display: flex;
+    align-items: center;
+
+    i:hover {
+      color: darken(#000, 10%);
+    }
+
+    i + i {
+      margin-left: 5px;
+    }
+  }
+
+  &--red {
+    border-color: var(--color-primary);
+
+    .box__tag {
+      background-color: var(--color-primary);
+    }
+  }
+
+  &--green {
+    border-color: var(--color-secondary);
+
+    .box__tag {
+      background-color: var(--color-secondary);
+    }
+  }
+
+  &--yellow {
+    border-color: var(--color-tertiary);
+
+    .box__tag {
+      background-color: var(--color-tertiary);
+    }
+  }
+}

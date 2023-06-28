@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #0f172a;
+}
+
+.circle {
+  position: fixed;
+  top: -50vmin;
+  left: -50vmin;
+  width: 100vmin;
+  height: 100vmin;
+  border-radius: 45% 55% 60% 40%/45% 50% 50% 55%;
+  background: #0b83ba;
+}
+
+.circle::after {
+  content: "";
+  position: inherit;
+  right: -50vmin;
+  bottom: -55vmin;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: #08618a;
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  max-width: 360px;
+  margin: 30px 15px;
+  padding: 150px 30px 30px;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 100px 100px rgba(0, 0, 0, 0.1);
+}
+.card::before {
+  content: "";
+  position: absolute;
+  background: #0ea5ea;
+  top: -880px;
+  left: 50%;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  translate: -50% 0;
+}
+.card__logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #fff;
+  height: 64px;
+  width: 64px;
+  top: 30px;
+  left: 50%;
+  translate: -50% 0;
+}
+.card__logo i {
+  font-size: 40px;
+  color: #0ea5ea;
+}
+.card__heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 20px;
+  color: #111;
+}
+.card__form input,
+.card__form button {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+}
+.card__form input {
+  border: 2px solid #ccc;
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding: 0 20px;
+  color: #111;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+.card__form input:hover, .card__form input:focus {
+  border: 2px solid #0bd1d1;
+  outline: 0;
+  transition: all 0.3s;
+}
+.card__form input::placeholder {
+  color: #ccc;
+}
+.card__form button {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  border: 0;
+  background: #0ea5ea;
+  color: #fff;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+}
+.card__form button:hover {
+  color: #fff;
+  background: #0bd1d1;
+  transition: all 0.3s;
+}

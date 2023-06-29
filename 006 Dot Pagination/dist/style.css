@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background: #0f172a;
+}
+
+.pagination {
+  margin: 30px 15px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination button {
+  flex: 0 0 40px;
+  height: 40px;
+  border: 0;
+  padding: 6px;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.pagination button span {
+  display: block;
+  height: 30px;
+  width: 100%;
+  border-radius: 15px;
+  background: #213156;
+  border: 1px solid #222f43;
+  transition: 0.4s;
+}
+.pagination button:focus {
+  flex: 0 0 80px;
+}
+.pagination button:focus span {
+  background: #b9e0f2;
+}

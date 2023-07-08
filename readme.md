@@ -10,3 +10,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 4. Pricing Table UI
 5. Signup Design UI
 6. Dot pagination 
+7. CSS Fitness Tracker 

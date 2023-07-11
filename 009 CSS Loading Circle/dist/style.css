@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background: #0f172a;
+  padding-top: 50px;
+}
+
+.bg {
+  fill: none;
+  stroke: #0ea5ea;
+  stroke-width: 4;
+}
+
+.loader {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-dasharray: 300;
+  animation: line 4s linear infinite, spin 3s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes line {
+  0% {
+    stroke-dashoffset: 1200;
+  }
+  100% {
+    stroke-dashoffset: 600;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(-90deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(270deg) translate3d(0, 0, 0);
+  }
+}

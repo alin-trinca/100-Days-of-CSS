@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background: #0f172a;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  height: 360px;
+  overflow: hidden;
+}
+
+.bulb {
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+  left: 162px;
+  fill: #fff35c;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    fill: #8c8f99;
+  }
+}
+
+.glow {
+  position: absolute;
+  width: 76px;
+  height: 76px;
+  background: #fff35c;
+  border-radius: 50px;
+  box-shadow: 0 0 50px 10px #fff35c;
+  top: 102px;
+  left: 162px;
+  transition: all 0.5s ease-in-out;
+}
+
+.bulb:hover ~ .glow {
+  opacity: 0;
+}
+
+.base {
+  position: absolute;
+  top: 203px;
+  left: 184px;
+  fill: #e5e5e5;
+}

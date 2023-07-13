@@ -9,6 +9,9 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 3. CSS Modal Window
 4. Pricing Table UI
 5. Signup Design UI
-6. Dot pagination 
+6. Dot pagination
 7. CSS Fitness Tracker
 8. CSS Checklist
+9. CSS Loading Circle
+10. CSS Lightbulb
+11. Hover Effect

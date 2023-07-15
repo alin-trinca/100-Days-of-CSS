@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background: #0f172a;
+  padding-top: 50px;
+}
+
+$numberOfSparkles: 12;
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  position: relative;
+
+  input {
+    display: none;
+
+    &:checked {
+      & ~ .toggle {
+        border-width: 14px;
+        background: #0ea5ea;
+        box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2),
+          inset 2px 2px 4px 0 rgba(0, 0, 0, 0);
+      }
+
+      @for $i from 1 through $numberOfSparkles {
+        $nullBase: $i - 1;
+        $degree: (360 / $numberOfSparkles) * $nullBase;
+        & ~ .sparkles .sparkle-#{$i} {
+          transform: rotate(($degree) + deg) translateY(-50px) scaleY(1);
+          opacity: 0;
+          transition: all 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+
+  .toggle {
+    position: relative;
+    z-index: 5;
+    display: block;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2),
+      inset 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .sparkles {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+
+    .sparkle {
+      position: absolute;
+      width: 2px;
+      height: 16px;
+      top: 12px;
+      left: 19px;
+      background: #0ea5ea;
+      transition: none;
+    }
+
+    @for $i from 1 through $numberOfSparkles {
+      $nullBase: $i - 1;
+      $degree: (360 / $numberOfSparkles) * $nullBase;
+      .sparkle-#{$i} {
+        transform: rotate(($degree) + deg) translateY(-15px) scaleY(0);
+      }
+    }
+  }
+}

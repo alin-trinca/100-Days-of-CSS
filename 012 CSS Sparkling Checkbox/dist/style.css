@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background: #0f172a;
+  padding-top: 50px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.checkbox input {
+  display: none;
+}
+.checkbox input:checked ~ .toggle {
+  border-width: 14px;
+  background: #0ea5ea;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 2px 4px 0 rgba(0, 0, 0, 0);
+}
+.checkbox input:checked ~ .sparkles .sparkle-1 {
+  transform: rotate(0deg) translateY(-50px) scaleY(1);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.checkbox input:checked ~ .sparkles .sparkle-2 {
+  transform: rotate(30deg) translateY(-50px) scaleY(1);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.checkbox input:checked ~ .sparkles .sparkle-3 {
+  transform: rotate(60deg) translateY(-50px) scaleY(1);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.checkbox input:checked ~ .sparkles .sparkle-4 {
+  transform: rotate(90deg) translateY(-50px) scaleY(1);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.checkbox input:checked ~ .sparkles .sparkle-5 {
+  transform: rotate(120deg) translateY(-50px) scaleY(1);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.checkbox input:checked ~ .sparkles .sparkle-6 {
+  transform: rotate(150deg) translateY(-50px) scaleY(1);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.checkbox input:checked ~ .sparkles .sparkle-7 {
+  transform: rotate(180deg) translateY(-50px) scaleY(1);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.checkbox input:checked ~ .sparkles .sparkle-8 {
+  transform: rotate(210deg) translateY(-50px) scaleY(1);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.checkbox input:checked ~ .sparkles .sparkle-9 {
+  transform: rotate(240deg) translateY(-50px) scaleY(1);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.checkbox input:checked ~ .sparkles .sparkle-10 {
+  transform: rotate(270deg) translateY(-50px) scaleY(1);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.checkbox input:checked ~ .sparkles .sparkle-11 {
+  transform: rotate(300deg) translateY(-50px) scaleY(1);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.checkbox input:checked ~ .sparkles .sparkle-12 {
+  transform: rotate(330deg) translateY(-50px) scaleY(1);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.checkbox .toggle {
+  position: relative;
+  z-index: 5;
+  display: block;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.checkbox .sparkles {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0px;
+  left: 0px;
+}
+.checkbox .sparkles .sparkle {
+  position: absolute;
+  width: 2px;
+  height: 16px;
+  top: 12px;
+  left: 19px;
+  background: #0ea5ea;
+  transition: none;
+}
+.checkbox .sparkles .sparkle-1 {
+  transform: rotate(0deg) translateY(-15px) scaleY(0);
+}
+.checkbox .sparkles .sparkle-2 {
+  transform: rotate(30deg) translateY(-15px) scaleY(0);
+}
+.checkbox .sparkles .sparkle-3 {
+  transform: rotate(60deg) translateY(-15px) scaleY(0);
+}
+.checkbox .sparkles .sparkle-4 {
+  transform: rotate(90deg) translateY(-15px) scaleY(0);
+}
+.checkbox .sparkles .sparkle-5 {
+  transform: rotate(120deg) translateY(-15px) scaleY(0);
+}
+.checkbox .sparkles .sparkle-6 {
+  transform: rotate(150deg) translateY(-15px) scaleY(0);
+}
+.checkbox .sparkles .sparkle-7 {
+  transform: rotate(180deg) translateY(-15px) scaleY(0);
+}
+.checkbox .sparkles .sparkle-8 {
+  transform: rotate(210deg) translateY(-15px) scaleY(0);
+}
+.checkbox .sparkles .sparkle-9 {
+  transform: rotate(240deg) translateY(-15px) scaleY(0);
+}
+.checkbox .sparkles .sparkle-10 {
+  transform: rotate(270deg) translateY(-15px) scaleY(0);
+}
+.checkbox .sparkles .sparkle-11 {
+  transform: rotate(300deg) translateY(-15px) scaleY(0);
+}
+.checkbox .sparkles .sparkle-12 {
+  transform: rotate(330deg) translateY(-15px) scaleY(0);
+}

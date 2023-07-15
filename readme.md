@@ -15,3 +15,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 9. CSS Loading Circle
 10. CSS Lightbulb
 11. Hover Effect
+12. CSS Sparkling Checkbox

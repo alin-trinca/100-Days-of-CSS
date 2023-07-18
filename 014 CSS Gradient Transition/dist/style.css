@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+div[class^=gradient] {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.gradient-1 {
+  background: #2193b0;
+  background: -moz-linear-gradient(-45deg, #2193b0 0%, #6dd5ed 100%);
+  background: -webkit-linear-gradient(-45deg, #6dd5ed 0%, #6dd5ed 100%);
+  background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#2193b0", endColorstr="#6dd5ed",GradientType=1 );
+}
+
+.gradient-2 {
+  z-index: 2;
+  opacity: 0;
+  background: #f12711;
+  background: -moz-linear-gradient(-45deg, #f12711 0%, #f5af19 100%);
+  background: -webkit-linear-gradient(-45deg, #f5af19 0%, #6dd5ed 100%);
+  background: linear-gradient(135deg, #f12711 0%, #f5af19 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f12711", endColorstr="#f5af19",GradientType=1 );
+  animation: gradient 5s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}

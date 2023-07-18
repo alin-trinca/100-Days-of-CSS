@@ -1,4 +1,4 @@
-# 100 Days of CSS
+
 
 ![100 Days of CSS](100-days-of-css.png)
 

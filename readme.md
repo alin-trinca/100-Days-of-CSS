@@ -1,5 +1,3 @@
-
-
 ![100 Days of CSS](100-days-of-css.png)
 
 _100 Days of CSS_ is a personal project where I challenge myself to create and share a CSS design every day for 100 days. It's a journey of creativity, skill enhancement, and self-improvement in the realm of cascading style sheets.
@@ -18,3 +16,6 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 10. CSS Lightbulb
 11. Hover Effect
 12. CSS Sparkling Checkbox
+13. CSS Word Carousel
+14. CSS Gradient Transition
+15. Hue Effect

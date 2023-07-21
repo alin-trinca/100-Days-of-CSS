@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #b9e0f2;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background: #0f172a;
+  padding-top: 50px;
+}
+
+.card {
+  width: calc(100% - 30px);
+  max-width: 640px;
+  margin: 15px;
+  padding: 10px 20px;
+  border: 1px solid #222f43;
+  border-radius: 10px;
+  background-color: #131c31;
+  color: #b9e0f2;
+  position: relative;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+
+  &__top {
+    display: flex;
+    align-items: center;
+  }
+
+  &__tab {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #8398ad;
+    cursor: pointer;
+    font-size: 1.6rem;
+    transition: background 0.5s ease-in-out;
+
+    ~ .card__tab {
+      margin-left: 10px;
+    }
+
+    &.search {
+      float: right;
+    }
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  input[type="radio"] {
+    display: none;
+
+    &:checked + .card__tab {
+      background: #b9e0f2;
+      color: #131c31;
+    }
+  }
+
+  &__content {
+    .box {
+      display: none;
+      pointer-events: none;
+      padding: 20px 0px;
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        &:not(:last-child) {
+          margin: 2rem 0;
+        }
+
+        span {
+          display: block;
+          height: 5px;
+          background: #b9e0f2;
+          margin: 7px 0;
+        }
+      }
+    }
+  }
+}
+
+#tab-1:checked ~ .card__content #box-1,
+#tab-2:checked ~ .card__content #box-2,
+#tab-3:checked ~ .card__content #box-3,
+#tab-4:checked ~ .card__content #box-4 {
+  pointer-events: all;
+  display: block;
+}

@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background: #0f172a;
+  padding-top: 50px;
+}
+
+.flame {
+  width: 32px;
+  height: 52px;
+  background: #ffad00;
+  border-radius: 16px 16px 16px 16px/40px 40px 16px 16px;
+  animation: wind 15s ease-in-out infinite, size 20s ease-in-out infinite, flickr 5s ease-in-out infinite;
+  transform-origin: 50% 100%;
+}
+
+.wick {
+  width: 16px;
+  height: 32px;
+  background-color: #c7c0c0;
+  margin-top: -2px;
+}
+
+.candle {
+  width: 100px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.candle::after {
+  display: block;
+  content: "";
+  width: 16px;
+  height: 200px;
+  background-color: #dad0fd;
+  filter: blur(2px);
+}
+.candle::before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 200px;
+  background-color: #e7e7fb;
+  filter: blur(2px);
+}
+
+.floor {
+  width: 200px;
+  height: 20px;
+  background-color: #293452;
+  border-radius: 3px;
+}
+
+@keyframes wind {
+  0%, 22%, 49%, 62%, 81%, 100% {
+    border-radius: 4px 28px 16px 16px/40px 40px 16px 16px;
+  }
+  14%, 32%, 56%, 70%, 89% {
+    border-radius: 28px 4px 16px 16px/40px 40px 16px 16px;
+  }
+}
+@keyframes size {
+  0%, 22%, 49%, 62%, 81%, 100% {
+    transform: scale(1, 1);
+  }
+  14%, 32%, 56%, 70%, 89% {
+    transform: scale(0.9, 1.2);
+  }
+}
+@keyframes flickr {
+  0%, 22%, 49%, 62%, 81%, 100% {
+    box-shadow: 0 0 20px 0 rgba(255, 202, 0, 0.7);
+  }
+  14%, 32%, 56%, 70%, 89% {
+    box-shadow: 0 0 20px 0 rgba(255, 202, 0, 0.8);
+  }
+}

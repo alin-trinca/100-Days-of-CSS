@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background: #0f172a;
+  padding-top: 50px;
+}
+
+.cradle {
+  background-color: #b9e0f2;
+  width: 300px;
+  height: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.cradle .ball {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #b9e0f2;
+  border-radius: 50%;
+  top: 100px;
+  transform-origin: 50% -100px;
+}
+.cradle .ball::before {
+  display: block;
+  content: "";
+  background-color: #b9e0f2;
+  width: 2px;
+  height: 100px;
+  position: absolute;
+  left: 25px;
+  top: -90px;
+}
+.cradle .ball.ball-first {
+  animation: ball-first 1s ease-out infinite alternate;
+}
+.cradle .ball.ball-last {
+  animation: ball-last 1s ease-out 1s infinite alternate;
+}
+
+@keyframes ball-first {
+  0%, 50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
+@keyframes ball-last {
+  0%, 50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-30deg);
+  }
+}

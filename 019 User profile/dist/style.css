@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #0f172a;
+}
+
+::selection {
+  color: #131c31;
+  background: #0ea5ea;
+}
+
+.profile {
+  width: calc(100% - 30px);
+  max-width: 640px;
+  text-align: center;
+  margin: 15px;
+  display: flex;
+  border: 1px solid #222f43;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #131c31;
+  color: #b9e0f2;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+}
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 340px;
+  text-align: center;
+}
+.profile__pic {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 40px auto 0 auto;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.profile__pic .circle-1 {
+  position: absolute;
+  width: 108px;
+  height: 108px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b9e0f2 #b9e0f2 #b9e0f2 transparent;
+  border-radius: 50%;
+  transform-origin: center;
+  transition: all 1.5s ease-in-out;
+}
+.profile__pic .circle-2 {
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: -8;
+  top: -8;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b9e0f2 transparent #b9e0f2 #b9e0f2;
+  border-radius: 50%;
+  transform-origin: center;
+  transition: all 1.5s ease-in-out;
+}
+.profile__pic:hover .circle-1 {
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+.profile__pic:hover .circle-2 {
+  cursor: pointer;
+  transform: rotate(-360deg);
+}
+.profile__name {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.profile__job {
+  font-size: 1.4rem;
+}
+.profile__actions {
+  margin: 30px 60px 0;
+  display: flex;
+  flex-direction: column;
+}
+.profile__btn {
+  padding: 0.8rem 2.2rem;
+  margin-bottom: 15px;
+  background: transparent;
+  border: 1px solid #0ea5ea;
+  border-radius: 50px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  cursor: pointer;
+}
+.profile__btn:hover {
+  background: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
+  transition: all 0.3s ease-in-out;
+}
+.profile__stats {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  justify-content: space-between;
+}
+.profile__stats .box {
+  display: flex;
+  flex-direction: column;
+  height: 33%;
+  background-color: #233358;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.profile__stats .box:hover {
+  background-color: #1f2d4d;
+  cursor: pointer;
+}
+.profile__stats .box .value {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.profile__stats .box .parameter {
+  font-size: 1.4rem;
+}

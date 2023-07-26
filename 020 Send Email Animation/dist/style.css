@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background: #0f172a;
+}
+
+.card {
+  position: relative;
+}
+.card .circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 65px;
+  background: #131c31;
+  border-radius: 50%;
+}
+.card .circle-outer {
+  position: absolute;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  top: 65px;
+  box-sizing: border-box;
+  background: transparent;
+  border: 4px solid #222f43;
+}
+.card .icon {
+  position: absolute;
+  z-index: 2;
+  top: 130px;
+  left: 40px;
+  fill: none;
+  stroke-width: 2px;
+  stroke: #b9e0f2;
+  stroke-linecap: round;
+  stroke-dasharray: 325 325;
+}
+.card .icon.mail {
+  width: 120px;
+  height: 70px;
+  stroke-dashoffset: 0;
+}
+.card .icon.plane {
+  width: 120px;
+  height: 110px;
+  stroke-dashoffset: 325;
+}
+.card .button {
+  position: absolute;
+  top: 290px;
+  z-index: 10;
+  width: 200px;
+  height: 45px;
+  line-height: 43px;
+  background: transparent;
+  border: 1px solid #0ea5ea;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card .button:hover {
+  background: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
+  transition: all 0.3s ease-in-out;
+}
+.card .button.reset {
+  opacity: 0;
+  z-index: 5;
+}
+.card #chck {
+  display: none;
+}
+.card #chck:checked ~ .button {
+  animation: button 1.5s ease-in-out 1.7s;
+  animation-fill-mode: both;
+}
+.card #chck:checked ~ .reset {
+  animation: reset 1s ease-in-out 3.7s;
+  animation-fill-mode: both;
+}
+.card #chck:checked ~ .circle {
+  animation: circle 1s ease-in-out;
+  animation-fill-mode: both;
+}
+.card #chck:checked ~ .circle-outer {
+  animation: circle 0.8s ease-in-out 0.2s;
+  animation-fill-mode: both;
+}
+.card #chck:checked ~ .mail {
+  stroke-dashoffset: 326;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+.card #chck:checked ~ .plane {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s ease-in-out 0.6s;
+  animation: fly 2.4s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes fly {
+  0%, 50% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  60% {
+    transform: translate3d(-10px, 5px, 0) scale(1.05);
+  }
+  70% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(300px, -150px, 0) scale(0.4);
+    opacity: 0;
+  }
+}
+@keyframes circle {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes button {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    background: #0ea5ea;
+    color: transparent;
+    width: 200px;
+    left: 0;
+  }
+  50%, 60% {
+    width: 40px;
+    left: 80px;
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    width: 40px;
+    left: 80px;
+    background: #0ea5ea;
+    color: transparent;
+    transform: scale(0);
+  }
+}
+@keyframes reset {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

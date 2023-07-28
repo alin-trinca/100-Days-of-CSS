@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #0f172a;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .brand {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: #fff;
+    font-size: 3.5rem;
+    color: #0f172a;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      color: #b9e0f2;
+      scale: 1.1;
+      cursor: pointer;
+    }
+  }
+
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+
+    .brand {
+      padding-top: 20px;
+    }
+
+    .brand1 {
+      border-radius: 90px 5px 5px 5px;
+    }
+
+    .brand2 {
+      border-radius: 5px 90px 5px 5px;
+    }
+  }
+
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+
+    .brand {
+      padding-bottom: 20px;
+    }
+
+    .brand3 {
+      border-radius: 5px 5px 5px 90px;
+    }
+
+    .brand4 {
+      border-radius: 5px 5px 90px 5px;
+    }
+  }
+}

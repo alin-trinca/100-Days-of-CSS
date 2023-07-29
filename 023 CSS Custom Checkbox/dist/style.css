@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #b9e0f2;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background: #0f172a;
+  padding-top: 50px;
+}
+
+.custom-checkbox-label {
+  font-size: 2rem;
+  color: #b9e0f2;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+.custom-checkbox-label .custom-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #b9e0f2;
+  border-radius: 5px;
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.custom-checkbox-label .custom-checkbox:before {
+  content: "";
+  background-color: #b9e0f2;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.custom-checkbox-label .custom-checkbox:checked:before {
+  transform: translate(-50%, -50%) scale(1);
+}

@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background: #0f172a;
+  padding-top: 50px;
+}
+
+.switch {
+  font-size: 2rem;
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+
+  .input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+    &:checked + .slider {
+      background-color: #183153;
+    }
+
+    &:focus + .slider {
+      box-shadow: 0 0 1px #183153;
+    }
+
+    &:checked + .slider:before {
+      transform: translateX(60px);
+    }
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #73c0fc;
+    transition: 0.4s;
+    border-radius: 30px;
+
+    &:before {
+      position: absolute;
+      content: "";
+      height: 38px;
+      width: 38px;
+      border-radius: 20px;
+      left: 1px;
+      bottom: 1px;
+      z-index: 2;
+      background-color: #e8e8e8;
+      transition: 0.4s;
+    }
+  }
+
+  .fa-sun {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    z-index: 1;
+    color: #ffd43b;
+    animation: rotate 15s linear infinite;
+  }
+
+  .fa-moon {
+    color: #b9e0f2;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    z-index: 1;
+    animation: tilt 3s linear infinite;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+    transform-origin: center;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    transform-origin: center;
+  }
+}
+
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

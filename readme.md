@@ -28,3 +28,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 22. Social Media Buttons
 23. CSS Custom Checkbox
 24. CSS Custom Toogle Switch
+25. Custom Input Text

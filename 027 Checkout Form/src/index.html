@@ -1,0 +1,40 @@
+<div class="card">
+  <form class="form">
+    <div class="payment">
+      <button name="paypal" type="button" class="payment__method">
+        <i class="fa-brands fa-paypal"></i>
+      </button>
+      <button name="apple-pay" type="button" class="payment__method">
+        <i class="fa-brands fa-apple-pay"></i>
+      </button>
+      <button name="google-pay" type="button" class="payment__method">
+        <i class="fa-brands fa-google-pay"></i>
+      </button>
+    </div>
+
+    <div class="separator">
+      <hr class="line">
+      <p>or pay using credit card</p>
+      <hr class="line">
+    </div>
+
+    <div class="credit-card">
+      <div class="credit-card__container">
+        <label class="credit-card__label">Full name</label>
+        <input class="credit-card__field" type="text" placeholder="Enter your full name">
+      </div>
+      <div class="credit-card__container">
+        <label class="credit-card__label">Card Number</label>
+        <input class="credit-card__field" type="number" placeholder="0000 0000 0000 0000">
+      </div>
+      <div class="credit-card__container">
+        <label class="credit-card__label">Expiry Date / CVV</label>
+        <div class="split">
+          <input class="credit-card__field" type="text" placeholder="01/23">
+          <input class="credit-card__field" type="number" placeholder="CVV">
+        </div>
+      </div>
+    </div>
+    <button class="purchase-btn">Checkout</button>
+  </form>
+</div>

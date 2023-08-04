@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #0f172a;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "h1 . ."
+    ". center ."
+    ". . h2";
+  width: 240px;
+  height: 360px;
+  border-radius: 6px;
+  background: #fff;
+  transition: 0.5s;
+  z-index: 20;
+
+  &:before {
+    content: "";
+    position: absolute;
+    height: 130%;
+    width: 0.6em;
+    background-color: aliceblue;
+    opacity: 0.3;
+    animation: glider 1.8s infinite linear;
+    animation-delay: 0.05s;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    height: 130%;
+    width: 0.4em;
+    background-color: aliceblue;
+    opacity: 0.2;
+    animation: glider 1.8s infinite linear;
+  }
+
+  &:hover {
+    box-shadow: #fff 0 5px 20px 0;
+    cursor: pointer;
+
+    &:after,
+    &:before {
+      visibility: hidden;
+    }
+
+    i,
+    span {
+      animation: color-change 4s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  .h1,
+  .h2 {
+    font-size: 1.5rem;
+    color: #ff3131;
+  }
+
+  .h1 {
+    grid-area: h1;
+    justify-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.2em 0.4em;
+  }
+
+  .h2 {
+    grid-area: h2;
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.2em 0.4em;
+    transform: rotate(180deg);
+  }
+
+  .corner-text {
+    color: #ff3131;
+    font-weight: 700;
+  }
+
+  .center-shape {
+    grid-area: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 10rem;
+      color: #ff3131;
+    }
+  }
+}
+
+@keyframes glider {
+  0% {
+    transform: rotate(45deg) translate(-140px, -140px);
+  }
+
+  100% {
+    transform: rotate(45deg) translate(220px, -40px);
+  }
+}
+
+@keyframes color-change {
+  from {
+    color: #ff3131;
+  }
+
+  to {
+    color: #111;
+  }
+}

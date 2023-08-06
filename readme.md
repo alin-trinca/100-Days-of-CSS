@@ -29,3 +29,8 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 23. CSS Custom Checkbox
 24. CSS Custom Toogle Switch
 25. Custom Input Text
+26. CSS Star Rating
+27. Checkout Form
+28. Cookies Notification
+29. CSS Playing Card
+30. CSS Reviews

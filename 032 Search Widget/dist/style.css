@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #0f172a;
+}
+
+.search {
+  position: relative;
+  height: 50px;
+}
+.search .input {
+  background-color: #fff;
+  border: 0;
+  border-radius: 6px 0 0 6px;
+  font-size: 1.8rem;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  transition: width 0.3s ease;
+}
+.search .input:focus {
+  outline: none;
+}
+.search .btn {
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-size: 2.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transition: transform 0.3s ease;
+}
+.search .btn:hover {
+  color: #0ea5ea;
+}
+.search .btn:focus {
+  outline: none;
+}
+.search:hover .input {
+  width: 200px;
+}
+.search:hover .btn {
+  transform: translateX(198px);
+  border-radius: 0 6px 6px 0;
+}

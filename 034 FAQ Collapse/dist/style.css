@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #0f172a;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+
+.faq-container {
+  width: calc(100% - 30px);
+  max-width: 640px;
+}
+
+.faq {
+  background-color: transparent;
+  border: 1px solid #222f43;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+.faq__title {
+  margin: 0 35px 0 0;
+  font-size: 1.8rem;
+}
+.faq__text {
+  display: none;
+  margin: 20px 0 0;
+}
+.faq__toggle {
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 30px;
+  width: 30px;
+}
+.faq__toggle:focus {
+  outline: 0;
+}
+.faq__toggle .fa-chevron-down {
+  color: #b9e0f2;
+}
+.faq__toggle .fa-chevron-down:hover {
+  color: #fff;
+}
+.faq__toggle .fa-rectangle-xmark {
+  display: none;
+}
+.faq.active {
+  background-color: #fff;
+}
+.faq.active .faq__title {
+  color: #131c31;
+}
+.faq.active .faq__text {
+  display: block;
+  color: #131c31;
+  font-size: 1.4rem;
+}
+.faq.active .faq__toggle .fa-rectangle-xmark {
+  color: #131c31;
+  display: block;
+  font-size: 2.5rem;
+}
+.faq.active .faq__toggle .fa-rectangle-xmark:hover {
+  color: #0ea5ea;
+}
+.faq.active .faq__toggle .fa-chevron-down {
+  display: none;
+}

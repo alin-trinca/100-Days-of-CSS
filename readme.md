@@ -34,3 +34,8 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 28. Cookies Notification
 29. CSS Playing Card
 30. CSS Reviews
+31. Progress Steps
+32. Search Widget 
+33. Split Landing Page
+34. FAQ Collapse 
+35. Custom Range Slider

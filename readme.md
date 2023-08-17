@@ -40,3 +40,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 34. FAQ Collapse 
 35. Custom Range Slider
 36. Kinetic Loader
+37. Sticky Navigation

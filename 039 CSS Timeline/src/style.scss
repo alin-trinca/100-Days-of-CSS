@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  background: #0f172a;
+}
+
+.container {
+  width: calc(100% - 30px);
+  max-width: 640px;
+  margin: 50px auto;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 70px;
+  color: #fff;
+
+  &::before {
+    content: "";
+    width: 4px;
+    height: 99%;
+    position: absolute;
+    background-color: #222f43;
+    left: 17px;
+    top: 15px;
+  }
+
+  &__box {
+    position: relative;
+    margin-bottom: 2.5rem;
+
+    &--primary {
+      .badge,
+      .timeline__icon {
+        background-color: #3bafda;
+      }
+    }
+
+    &--success {
+      .badge,
+      .timeline__icon {
+        background-color: #a0d468;
+      }
+    }
+
+    &--danger {
+      .badge,
+      .timeline__icon {
+        background-color: #ed5565;
+      }
+    }
+
+    &--warning {
+      .badge,
+      .timeline__icon {
+        background-color: #ffce54;
+      }
+    }
+
+    &--info {
+      .badge,
+      .timeline__icon {
+        background-color: #48cfad;
+      }
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    left: -75px;
+    top: 4px;
+    width: 50px;
+    height: 50px;
+    background-color: #222f43;
+    border-radius: 50%;
+    font-size: 5rem;
+    text-align: center;
+
+    i {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__body {
+    background-color: #131c31;
+    border: 1px solid #222f43;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.5s ease;
+
+    &::before {
+      content: "";
+      background-color: inherit;
+      border-left: 1px solid #222f43;
+      border-bottom: 1px solid #222f43;
+      width: 20px;
+      height: 20px;
+      display: block;
+      position: absolute;
+      left: -10px;
+      transform: rotate(45deg);
+      border-radius: 0 0 0 3px;
+    }
+
+    &:hover {
+      box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.6);
+    }
+
+    p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    .time {
+      font-style: italic;
+      opacity: 0.4;
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+  }
+
+  &__header {
+    margin-bottom: 10px;
+
+    .badge {
+      padding: 4px 8px;
+      font-size: 1.2rem;
+      border-radius: 6px;
+      font-weight: 700;
+    }
+  }
+}

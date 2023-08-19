@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  background: #0f172a;
+}
+
+.container {
+  width: calc(100% - 30px);
+  max-width: 640px;
+  margin: 50px auto;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 70px;
+  color: #fff;
+}
+.timeline::before {
+  content: "";
+  width: 4px;
+  height: 99%;
+  position: absolute;
+  background-color: #222f43;
+  left: 17px;
+  top: 15px;
+}
+.timeline__box {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+.timeline__box--primary .badge,
+.timeline__box--primary .timeline__icon {
+  background-color: #3bafda;
+}
+.timeline__box--success .badge,
+.timeline__box--success .timeline__icon {
+  background-color: #a0d468;
+}
+.timeline__box--danger .badge,
+.timeline__box--danger .timeline__icon {
+  background-color: #ed5565;
+}
+.timeline__box--warning .badge,
+.timeline__box--warning .timeline__icon {
+  background-color: #ffce54;
+}
+.timeline__box--info .badge,
+.timeline__box--info .timeline__icon {
+  background-color: #48cfad;
+}
+.timeline__icon {
+  position: absolute;
+  left: -75px;
+  top: 4px;
+  width: 50px;
+  height: 50px;
+  background-color: #222f43;
+  border-radius: 50%;
+  font-size: 5rem;
+  text-align: center;
+}
+.timeline__icon i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timeline__body {
+  background-color: #131c31;
+  border: 1px solid #222f43;
+  border-radius: 6px;
+  padding: 15px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.5s ease;
+}
+.timeline__body::before {
+  content: "";
+  background-color: inherit;
+  border-left: 1px solid #222f43;
+  border-bottom: 1px solid #222f43;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: -10px;
+  transform: rotate(45deg);
+  border-radius: 0 0 0 3px;
+}
+.timeline__body:hover {
+  box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.6);
+}
+.timeline__body p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+.timeline__body .time {
+  font-style: italic;
+  opacity: 0.4;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+.timeline__header {
+  margin-bottom: 10px;
+}
+.timeline__header .badge {
+  padding: 4px 8px;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  font-weight: 700;
+}

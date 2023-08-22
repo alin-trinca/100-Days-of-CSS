@@ -45,3 +45,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 39. CSS Timeline
 40. CSS Contact Form
 41. Glowing Neon Buttons
+42. Card Hover Effect

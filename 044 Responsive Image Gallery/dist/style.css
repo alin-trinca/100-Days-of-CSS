@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f172a;
+}
+
+img {
+  width: 100%;
+}
+
+.photo-grid-container {
+  column-count: 5;
+  column-width: 300px;
+}
+.photo-grid-container .photo-grid-item {
+  margin: 0 auto 15px;
+  max-width: 400px;
+  width: 100%;
+}

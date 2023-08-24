@@ -47,3 +47,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 41. Glowing Neon Buttons
 42. Card Hover Effect
 43. Dropmorphism
+44. Responsive Image Gallery

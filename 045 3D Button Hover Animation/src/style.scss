@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f172a;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+
+  li {
+    box-sizing: border-box;
+    width: 15em;
+    height: 3em;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: inherit;
+    text-transform: capitalize;
+    line-height: 3em;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:nth-child(odd) {
+      background: linear-gradient(to right, #0bd1d1, #0ea5ea);
+      text-align: left;
+      padding-left: 10%;
+      transform: perspective(500px) rotateY(45deg);
+
+      &:hover {
+        transform: perspective(200px) rotateY(45deg);
+        padding-left: 5%;
+      }
+    }
+
+    &:nth-child(even) {
+      background: linear-gradient(to left, #0bd1d1, #0ea5ea);
+      text-align: right;
+      padding-right: 10%;
+      transform: perspective(500px) rotateY(-45deg);
+
+      &:hover {
+        transform: perspective(200px) rotateY(-45deg);
+        padding-left: 5%;
+      }
+    }
+  }
+}

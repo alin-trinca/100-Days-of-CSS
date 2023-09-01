@@ -55,3 +55,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 49. Side Navigation Bar
 50. Task Management Dashboard
 51. Netflix CSS Logo
+52. Google CSS Logo

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.nike {
+  position: absolute;
+  overflow: hidden;
+  width: 300px;
+  aspect-ratio: 14/5;
+  position: relative;
+}
+.nike:before, .nike:after {
+  content: "";
+  position: absolute;
+}
+.nike:before {
+  background: #000;
+  width: 37%;
+  height: 550%;
+  bottom: -134%;
+  left: 70.5%;
+  border-top-left-radius: 48% 17%;
+  border-top-right-radius: 120% 40%;
+  transform: rotate(-113deg);
+  z-index: 1;
+}
+.nike:after {
+  background: #fff;
+  width: 30%;
+  height: 400%;
+  bottom: -73%;
+  left: 64%;
+  border-top-left-radius: 64% 14%;
+  border-top-right-radius: 125% 46%;
+  transform: rotate(-105deg);
+  z-index: 2;
+}

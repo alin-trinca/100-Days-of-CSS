@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000;
+}
+
+.instagram {
+  font-size: 300px;
+  width: 1em;
+  aspect-ratio: 1;
+  background: radial-gradient(
+      circle farthest-corner at 28% 100%,
+      #fcdf8f 0%,
+      #fbd377 10%,
+      #fa8e37 22%,
+      #f73344 35%,
+      transparent 65%
+    ),
+    linear-gradient(145deg, #3051f1 10%, #c92bb7 70%);
+  border-radius: 0.2em;
+  position: relative;
+  display: grid;
+  place-items: center;
+
+  &:before,
+  &:after {
+    content: "";
+    color: #fff;
+    position: absolute;
+    border-radius: inherit;
+    aspect-ratio: 1;
+  }
+
+  &:before {
+    border: 0.05em solid;
+    width: 65%;
+  }
+
+  &:after {
+    border-radius: 50%;
+    border: 0.05em solid;
+    width: 35%;
+    box-shadow: 0.22em -0.22em 0 -0.18em;
+  }
+}

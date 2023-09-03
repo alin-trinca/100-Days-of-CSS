@@ -57,3 +57,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 51. Netflix CSS Logo
 52. Google CSS Logo
 53. Nike CSS Logo
+54. Instagram CSS Logo

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.tiktok {
+  width: 300px;
+  aspect-ratio: 0.87;
+  display: grid;
+  cursor: pointer;
+  isolation: isolate;
+}
+.tiktok:before, .tiktok:after {
+  content: "";
+  grid-area: 1/1;
+  transform: translate(calc(0.2 * var(--_h, 0%) - 3%), calc(var(--_h, 0%) - 3%));
+  background: radial-gradient(100% 100% at 100% 100%, #0000 0 50%, var(--c, #08fff9) 51.5% 99%, #0000) 0 52.5%/41% 36% no-repeat, radial-gradient(50% 100% at top, #0000 44%, var(--c, #08fff9) 45% 98%, #0000) 0 100%/73% 31% no-repeat, linear-gradient(var(--c, #08fff9) 0 0) 66% 0/20% 70% no-repeat, radial-gradient(100% 100% at 100% 0, #0000 0 58%, var(--c, #08fff9) 58.5% 99%, #0000) 100% 0/47% 41.8% no-repeat;
+  mix-blend-mode: var(--m, darken);
+}
+.tiktok:after {
+  --c: #f00044;
+  transform: translate(calc(3% - var(--_h, 0%)), calc(3% - 0.8 * var(--_h, 0%)));
+}

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.adidas {
+  width: 300px;
+  display: grid;
+  aspect-ratio: 1.5;
+  background: linear-gradient(#000 0 0) 50% 67%/23% 8% no-repeat, radial-gradient(circle at 176% 50%, #000 52.5%, #0000 53%) left/50.2% 100% no-repeat, radial-gradient(circle at -76% 50%, #000 52.5%, #0000 53%) right/50.2% 100% no-repeat;
+  -webkit-mask: linear-gradient(0deg, #000 0 12%, #0000 0 18%, #000 0 26%, #0000 0 32%, #000 0 39%, #0000 0 45%, #000 0);
+}
+.adidas:before, .adidas:after {
+  content: "";
+  grid-area: 1/1;
+  background: inherit;
+  transform: translate(3.5%, -3%) rotate(45deg);
+  transform-origin: bottom;
+}
+.adidas:after {
+  transform: translate(-3.5%, -3%) rotate(-45deg);
+}

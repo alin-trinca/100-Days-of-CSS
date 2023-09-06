@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000;
+}
+
+.gmail {
+  width: 300px;
+  aspect-ratio: 1.35;
+  border-radius: 10% 10% 5% 5%/13% 13% 10% 10%;
+  background: conic-gradient(
+        from -127deg at 55% 48%,
+        #0000,
+        #ea4335 0.5deg 127deg,
+        #fbbc04 0 180deg,
+        #34a853 0 307deg,
+        #0000 0
+      )
+      right/50.1% no-repeat,
+    conic-gradient(
+        from -180deg at 45% 48%,
+        #4285f4 0 127deg,
+        #c5221f 0 180deg,
+        #ea4335 0 307deg,
+        #0000 307.5deg
+      )
+      left / 50.1% no-repeat;
+  -webkit-mask: radial-gradient(
+        circle closest-side at 14% 50%,
+        #000 99%,
+        #0000 103%
+      )
+      0 0/78% 29% repeat-x,
+    conic-gradient(
+        from -53deg at 50% 35%,
+        #000,
+        #0000 0.5deg 105deg,
+        #000 106deg
+      )
+      bottom/100% 98% no-repeat;
+}

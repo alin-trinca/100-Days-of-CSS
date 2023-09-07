@@ -61,3 +61,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 55. TikTok CSS Logo
 56. Adidas CSS Logo
 57. Gmail CSS Logo
+58. YouTube CSS Logo

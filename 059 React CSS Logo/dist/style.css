@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000;
+}
+
+.react {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: rotation 8.2s linear infinite;
+}
+.react__item {
+  position: absolute;
+  border: 7px #55dbf8 solid;
+  height: 80px;
+  width: 220px;
+  border-radius: 250%;
+}
+.react__item--1 {
+  transform: rotate(60deg);
+}
+.react__item--2 {
+  transform: rotate(-60deg);
+}
+.react__item--3 {
+  height: 40px;
+  width: 40px;
+  background-color: #55dbf8;
+  border-radius: 50%;
+  position: absolute;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

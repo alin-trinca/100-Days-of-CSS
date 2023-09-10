@@ -64,3 +64,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 58. YouTube CSS Logo
 59. React CSS Logo
 60. Twitter X Logo
+61. Responsive Card Slider

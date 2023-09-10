@@ -2,3 +2,4 @@
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/alin_trinca/pen/MWZbGYE](https://codepen.io/alin_trinca/pen/MWZbGYE).
 
+![Responsive Card Slider Screenshot](responsive-card-slider.png)

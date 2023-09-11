@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,900;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.cards {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.cards h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+}
+.services .content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.services .content > * {
+  flex: 1 1 100%;
+}
+.services .content:hover {
+  color: #fff;
+}
+.services .content:hover a {
+  border-color: #fff;
+  background: #fff;
+}
+.services .content .fab {
+  font-size: 70px;
+  margin: 16px 0;
+}
+.services .content h2 {
+  font-size: 3rem;
+  margin: 15px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.services .content p {
+  font-size: 1.8rem;
+}
+.services .content a {
+  margin: 20px 0;
+  background: #000;
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  padding: 15px 0;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+.services .content a:hover {
+  border-radius: 0;
+}
+.services .content.content-1:hover {
+  border-color: #1da1f2;
+  background: #1da1f2;
+}
+.services .content.content-1:hover a {
+  color: #1da1f2;
+}
+.services .content.content-2:hover {
+  border-color: #e1306c;
+  background: #e1306c;
+}
+.services .content.content-2:hover a {
+  color: #e1306c;
+}
+.services .content.content-3:hover {
+  border-color: #ff0000;
+  background: #ff0000;
+}
+.services .content.content-3:hover a {
+  color: #ff0000;
+}
+
+@media (max-width: 991px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+}

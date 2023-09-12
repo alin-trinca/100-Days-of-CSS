@@ -66,3 +66,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 60. Twitter X Logo
 61. Responsive Card Slider
 62. Responsive Cards Design
+63. Blog Card Slider

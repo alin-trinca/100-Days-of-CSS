@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: #4a89dc;
+  clip-path: inset(47% 0 0 0);
+  z-index: -1;
+  height: 100%;
+}
+
+.container {
+  max-width: 950px;
+  width: 100%;
+  overflow: hidden;
+  padding: 60px 0;
+}
+.container .main-card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200%;
+  transition: 1s;
+}
+
+#two:checked ~ .main-card {
+  margin-left: -100%;
+}
+
+.cards {
+  width: calc(100% / 2 - 10px);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  justify-content: space-between;
+}
+.cards .card {
+  width: calc(100% / 3 - 10px);
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease;
+}
+.cards .card:hover {
+  transform: translateY(-15px);
+}
+.cards .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cards .img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  padding: 3px;
+  background: #4a89dc;
+  margin-bottom: 15px;
+}
+.cards .img img {
+  height: 100%;
+  width: 100%;
+  border: 3px solid #ffff;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.cards .name {
+  font-size: 2.2rem;
+}
+.cards .job {
+  font-size: 1.6rem;
+  color: #4a89dc;
+}
+.cards .media-icons {
+  margin-top: 10px;
+  display: flex;
+}
+.cards .media-icons a {
+  text-align: center;
+  line-height: 33px;
+  height: 35px;
+  width: 35px;
+  margin: 0 5px;
+  font-size: 1.4rem;
+  color: #fff;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: #4a89dc;
+  transition: all 0.3s ease;
+}
+.cards .media-icons a:hover {
+  color: #4a89dc;
+  background-color: #fff;
+  border-color: #4a89dc;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.buttons label {
+  height: 15px;
+  width: 15px;
+  border-radius: 20px;
+  background: #fff;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.buttons label.active {
+  width: 35px;
+}
+
+#one:checked ~ .buttons .one {
+  width: 35px;
+}
+
+#one:checked ~ .buttons .two {
+  width: 15px;
+}
+
+#two:checked ~ .buttons .one {
+  width: 15px;
+}
+
+#two:checked ~ .buttons .two {
+  width: 35px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .cards .card {
+    margin: 20px 0 10px 0;
+    width: calc(100% / 2 - 10px);
+  }
+}
+@media (max-width: 575px) {
+  .cards .card {
+    width: 100%;
+  }
+}

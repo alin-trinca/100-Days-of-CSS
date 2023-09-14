@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(55% at right 30%);
+    background: #e6e6e6;
+    background-image: linear-gradient(0deg, #4fc1e9 10%, #3bafda 100%);
+  }
+}
+
+.container {
+  display: flex;
+  max-width: 750px;
+  background: #fff;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    clip-path: circle(65% at right 35%);
+    background-image: linear-gradient(135deg, #3bafda 10%, #4fc1e9 100%);
+  }
+}
+
+.box.one {
+  padding: 30px 5px 0 30px;
+
+  .details .topic {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .details p {
+    color: #0f172a;
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+  .rating {
+    color: #f6bb42;
+    font-size: 1.8rem;
+    margin-top: 10px;
+  }
+  .price-box {
+    margin-top: 15px;
+  }
+  .discount {
+    font-size: 2rem;
+    margin: 10px 0 0 10px;
+    position: relative;
+    color: #737373;
+
+    &:before {
+      content: "";
+      position: absolute;
+      height: 1px;
+      width: 70px;
+      background: #737373;
+      top: 50%;
+      left: -8px;
+    }
+  }
+
+  .price {
+    color: #fc6989;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .button {
+    margin-top: 15px;
+
+    button {
+      outline: none;
+      border: none;
+      padding: 7px 20px;
+      border-radius: 6px;
+      font-size: 2rem;
+      font-weight: 700;
+      font-family: inherit;
+      color: #fff;
+      background-color: #37bc9b;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: scale(0.98);
+      }
+    }
+  }
+}
+
+.box.two {
+  .image-box {
+    position: relative;
+    text-align: right;
+    right: 0;
+    bottom: 30px;
+  }
+
+  .image {
+    position: relative;
+    right: 0;
+    top: 0;
+    height: 273px;
+    width: 430px;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .info {
+    margin: 0 35px 0 0;
+
+    .brand {
+      font-size: 1.7rem;
+      color: #000;
+      margin-top: 20px;
+    }
+
+    .name {
+      font-size: 2rem;
+      color: #fff;
+    }
+
+    .shipping {
+      font-size: 1.4rem;
+      color: #000;
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0f172a;
+}
+
+.wrapper {
+  display: flex;
+  height: 300px;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.wrapper .right {
+  background: #fff;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+  z-index: 12;
+}
+.wrapper .right .title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.wrapper .right .stars {
+  font-size: 2rem;
+  color: #f6bb42;
+  margin: 10px 0;
+}
+.wrapper .right .about {
+  color: #0f172a;
+  font-size: 1.6rem;
+}
+.wrapper .right button {
+  background: #4a89dc;
+  color: #fff;
+  font-family: inherit;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.wrapper .right button:hover {
+  transform: scale(0.98);
+}
+.wrapper .right button span {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.wrapper .left {
+  background: url("https://images.unsplash.com/photo-1543510644-82353c4be12a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 50%;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.wrapper .left ul {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  padding: 10px 25px;
+  margin-left: -300px;
+  transition: 0.4s;
+}
+.wrapper .left:hover ul {
+  margin-left: 0;
+}
+.wrapper .left li {
+  font-size: 1.4rem;
+  color: #fff;
+}

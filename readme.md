@@ -71,3 +71,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 65. Ecommerce Product Card
 66. Product Card Design
 67. Vertical Card Sliding Animation
+68. Email Subscription Box

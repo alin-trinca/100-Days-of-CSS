@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0f172a;
+}
+
+.wrapper {
+  background: #fff;
+  width: calc(100% - 30px);
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+
+  .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4fc1e9;
+    height: 120px;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+
+    &::before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      background: #4fc1e9;
+      bottom: -10px;
+      transform: rotate(45deg);
+    }
+    i {
+      font-size: 7rem;
+      color: #fff;
+    }
+  }
+
+  .bottom {
+    padding: 30px;
+    word-spacing: -1px;
+
+    .info {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .input-box {
+      height: 45px;
+      margin: 15px 0;
+    }
+
+    input {
+      height: 100%;
+      width: 100%;
+      padding-left: 15px;
+      outline: none;
+      font-size: 1.8rem;
+      font-family: inherit;
+      border-radius: 20px;
+      transition: all 0.4s ease;
+
+      &[type="text"] {
+        border: 2px solid #ccc;
+      }
+      &[type="text"]:focus,
+      &[type="text"]:valid {
+        border-color: #4a89dc;
+      }
+
+      &[type="submit"] {
+        border: none;
+        cursor: pointer;
+        background: #5d9cec;
+        color: #fff;
+        letter-spacing: 1px;
+      }
+      &[type="submit"]:hover {
+        background: #4a89dc;
+      }
+    }
+
+    .footer {
+      font-size: 1.6rem;
+      margin-top: 10px;
+    }
+  }
+}

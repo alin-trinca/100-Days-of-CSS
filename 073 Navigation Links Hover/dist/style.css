@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0f172a;
+}
+
+.container {
+  max-width: 550px;
+  margin: 0 20px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+}
+.container p {
+  font-size: 1.8rem;
+}
+.container a {
+  position: relative;
+  color: #0ea5ea;
+  text-decoration: none;
+}
+.container a span {
+  position: absolute;
+  white-space: nowrap;
+  padding: 6px 15px;
+  background: #0ea5ea;
+  border-radius: 25px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  top: -44px;
+  left: 50%;
+  transform: translate(-40%, -20px);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container a span::before {
+  content: " ";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background: #0ea5ea;
+  bottom: -6px;
+  left: 50%;
+  z-index: -1;
+  transform: translate(-50%) rotate(45deg);
+}
+.container a:hover {
+  text-decoration: underline;
+}
+.container a:hover span {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, 0);
+}

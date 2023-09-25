@@ -78,3 +78,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 72. Navigation Menu Animation
 73. Navigation Links Hover
 74. Animated Skills Bar
+75. Animated Background Effect

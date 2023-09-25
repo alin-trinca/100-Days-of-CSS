@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #0f172a;
+  overflow: hidden;
+  animation: changeColor 3s linear infinite;
+}
+
+span {
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: relative;
+}
+span::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  background: #00ff0a;
+  pointer-events: none;
+  transition: 10s;
+  transform: scale(0.1);
+  box-shadow: 0 0 10px #00ff0a, 0 0 20px #00ff0a, 0 0 40px #00ff0a, 0 0 60px #00ff0a, 0 0 80px #00ff0a, 0 0 100px #00ff0a;
+}
+span:hover::before {
+  transform: scale(1);
+  transition: 0s;
+}
+
+@keyframes changeColor {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}

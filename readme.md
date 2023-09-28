@@ -81,3 +81,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 75. Animated Background Effect
 76. Fixed Social Media Sidebar
 77. Glowing Cube
+78. CSS Tabs

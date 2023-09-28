@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0f172a;
+}
+
+.widget {
+  background: #17181a;
+  width: 360px;
+  border: 1px solid #222f43;
+  border-radius: 20px;
+  background-color: #131c31;
+  color: #b9e0f2;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+input {
+  display: none;
+}
+
+.buttons {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #222f43;
+
+  label {
+    padding: 20px 10px;
+    font-size: 1.7rem;
+    width: 80px;
+    text-align: center;
+    opacity: 0.35;
+    cursor: pointer;
+  }
+
+  .underline {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 3px;
+    background: #0ea5ea;
+    transition: 0.2s;
+  }
+}
+
+.content {
+  position: relative;
+  overflow: hidden;
+  height: 140px;
+
+  .content-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 1080px;
+    transition: 0.3s;
+
+    & > div {
+      width: inherit;
+      padding: 20px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    p {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.tabs {
+  input:nth-child(1):checked ~ .buttons .underline {
+    translate: 0 0;
+  }
+  input:nth-child(2):checked ~ .buttons .underline {
+    translate: 80px 0;
+  }
+
+  input:nth-child(3):checked ~ .buttons .underline {
+    translate: 160px 0;
+  }
+
+  input:nth-child(1):checked ~ .buttons label:nth-child(1),
+  input:nth-child(2):checked ~ .buttons label:nth-child(2),
+  input:nth-child(3):checked ~ .buttons label:nth-child(3) {
+    opacity: 1;
+  }
+
+  input:nth-child(1):checked ~ .content > .content-inner {
+    translate: 0 0;
+  }
+
+  input:nth-child(2):checked ~ .content > .content-inner {
+    translate: -360px 0;
+  }
+
+  input:nth-child(3):checked ~ .content > .content-inner {
+    translate: -720px 0;
+  }
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-color: #131c31;
+}
+
+i {
+  font-size: 2.4rem;
+}
+
+.footer {
+  padding-block: 5rem;
+  background-color: #0f172a;
+  color: #666873;
+}
+.footer__container {
+  max-width: 116rem;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+.footer__top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  row-gap: 2rem;
+}
+.footer__title {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer__list-item {
+  list-style: none;
+}
+.footer__list-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+  transition: color 0.25s;
+}
+.footer__list-link:hover {
+  color: #fff;
+}
+.footer__divider {
+  margin-block: 2.5rem;
+  border: none;
+  border-top: 1px solid #222f43;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.footer__bottom .copyright {
+  font-size: 1.4rem;
+}
+.footer__bottom .footer__list {
+  flex-direction: row;
+}

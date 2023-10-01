@@ -83,3 +83,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 77. Glowing Cube
 78. CSS Tabs
 79. Responsive Footer
+80. Neumorphism Loading Spinner

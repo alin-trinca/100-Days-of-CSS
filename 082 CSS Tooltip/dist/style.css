@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0f172a;
+}
+
+.card {
+  width: calc(100% - 30px);
+  max-width: 640px;
+  text-align: center;
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid #222f43;
+  border-radius: 20px;
+  background-color: #131c31;
+  color: #b9e0f2;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+.quote {
+  position: relative;
+  padding: 0 30px;
+}
+.quote:before {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  content: "„";
+  font-family: Arial;
+  font-size: 200px;
+  color: #6ac2e3;
+  opacity: 0.5;
+  line-height: 35px;
+  top: -100px;
+  left: 0;
+}
+.quote p {
+  position: relative;
+  z-index: 1;
+  font-size: 2.5rem;
+  line-height: 35px;
+  margin: 20px 0;
+}
+.quote .author {
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 28px;
+}
+.quote .tooltip {
+  position: relative;
+  display: inline-block;
+  background: #286f8a;
+  padding: 0px 8px 5px 8px;
+  margin: -10px 0;
+  cursor: pointer;
+}
+.quote .tooltip:hover .info, .quote .tooltip:focus .info {
+  visibility: visible;
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+.quote .tooltip .info {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 53px;
+  left: -85px;
+  display: block;
+  background: #286f8a;
+  width: 300px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: text;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate3d(0, -20px, 0);
+  transition: all 0.5s ease-out;
+}
+.quote .tooltip .info:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 14px;
+  bottom: -14px;
+  left: 0;
+}
+.quote .tooltip .info:after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  bottom: -5px;
+  left: 50%;
+  margin-left: -5px;
+  background: #286f8a;
+}
+.quote .tooltip .info .pronounce {
+  display: block;
+  background: #fff;
+  color: #286f8a;
+  padding: 8px 17px 10px 17px;
+  line-height: 16px;
+}
+.quote .tooltip .info .pronounce .fa {
+  position: relative;
+  margin-left: 10px;
+  top: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+.quote .tooltip .info .pronounce .fa:hover {
+  transform: scale(1.15) translate3d(0, 0, 0);
+  backface-visibility: none;
+}
+.quote .tooltip .info .text {
+  display: block;
+  padding: 13px 17px;
+}

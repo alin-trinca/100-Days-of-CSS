@@ -86,3 +86,4 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 80. Neumorphism Loading Spinner
 81. Rainy Night
 82. CSS Tooltip
+83. Slider with Radio Buttons

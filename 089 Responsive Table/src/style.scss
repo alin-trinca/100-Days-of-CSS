@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0f172a;
+}
+
+h1 {
+  margin: 20px 0;
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+table {
+  width: calc(100% - 30px);
+  max-width: 640px;
+  border-spacing: 0;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  color: #0f172a;
+  overflow: hidden;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+
+  tr {
+    border-bottom: 1px solid #ddd;
+
+    &:nth-of-type(odd) td {
+      background-color: #f9f9f9;
+    }
+
+    &:last-of-type td {
+      border-bottom: 0;
+    }
+  }
+
+  th {
+    background-color: #e6e9ed;
+    border-bottom: 2px solid #e6e9ed;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  td {
+    background-color: #fff;
+    font-size: 1.4rem;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+
+    img {
+      border-radius: 50%;
+      object-fit: cover;
+      height: 40px;
+      width: 40px;
+    }
+
+    &:nth-of-type(2),
+    &:nth-of-type(3) {
+      font-weight: 700;
+    }
+
+    &:nth-of-type(3),
+    &:nth-of-type(4) {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  table tr *:nth-of-type(4),
+  table tr *:nth-of-type(5) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  body {
+    justify-content: flex-start;
+  }
+
+  table tr *:nth-of-type(6) {
+    display: none;
+  }
+}

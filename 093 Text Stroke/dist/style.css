@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f172a;
+}
+
+svg path {
+  fill: none;
+  stroke: #0ea5ea;
+  stroke-width: 6px;
+  stroke-dasharray: 600px;
+  stroke-dashoffset: 600px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: draw-stroke 5s linear forwards;
+}
+
+@keyframes draw-stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

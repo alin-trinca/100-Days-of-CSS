@@ -97,3 +97,5 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 91. Overlap Text Effect
 92. Read More / Read Less
 93. Text Stroke
+94. Rainbow Border Animation
+95. Netflix Login Page

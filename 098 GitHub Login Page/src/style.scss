@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #0d1117;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 308px;
+  align-items: center;
+}
+
+.github-logo {
+  margin: 32px 0 24px;
+
+  i {
+    font-size: 48px;
+  }
+}
+
+.github-head {
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
+.login-wrapper {
+  width: 100%;
+  background-color: #161b22;
+  padding: 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #21262d;
+  border-top: 0;
+
+  .input-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 16px;
+
+    .input-label {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 8px;
+
+      a {
+        font-size: 12px;
+        color: #2f81f7;
+      }
+    }
+
+    input {
+      width: 100%;
+      outline: none;
+      margin-top: 4px;
+      font-size: 14px;
+      line-height: 20px;
+      padding: 5px 12px;
+      border-radius: 6px;
+      border: 1px solid #30363d;
+      background-color: #0d1117;
+      transition: 80ms cubic-bezier(0.33, 1, 0.68, 1);
+      transition-property: color, background-color, box-shadow, border-color;
+
+      &:focus {
+        border: 1px solid blue;
+      }
+    }
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 5px 16px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #238636fa;
+    border: 1px solid rgba(240, 246, 252, 0.09);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 80ms cubic-bezier(0.33, 1, 0.68, 1);
+    transition-property: color, background-color, box-shadow, border-color;
+  }
+
+  .submit-btn:hover {
+    background-color: #2ea043;
+    border-color: rgb(13, 17, 23);
+  }
+}
+
+.info {
+  width: 100%;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  margin-top: 16px;
+  padding: 16px;
+  font-size: 14px;
+  text-align: center;
+
+  span {
+    display: block;
+    margin-top: 4px;
+  }
+
+  a {
+    color: #2f81f7;
+  }
+}
+
+// @media screen and (max-width: 360px) {
+//   body {
+//     padding: 0px 10px;
+//   }
+
+//   .info {
+//     font-size: 14px;
+//     padding: 17px 10px;
+//   }
+
+//   .input-label {
+//     font-size: 14px;
+//   }
+// }

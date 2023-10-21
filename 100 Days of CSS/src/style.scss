@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5;
+  color: #b9e0f2;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0f172a;
+}
+
+.number {
+  position: relative;
+  height: 150px;
+  width: 360px;
+
+  .one {
+    position: relative;
+    top: 0;
+    left: 35px;
+    height: 130px;
+    width: 30px;
+    background: #b9e0f2;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: -20px;
+      z-index: -1;
+      height: 60px;
+      width: 25px;
+      background: #b9e0f2;
+      border-radius: 5px;
+      transform: rotate(50deg);
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100px;
+      left: 5px;
+      height: 60px;
+      width: 20px;
+      background: #b9e0f2;
+      border-radius: 5px;
+      transform: rotate(90deg);
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .zero {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    box-sizing: border-box;
+    height: 140px;
+    width: 130px;
+    border-radius: 50%;
+    border: 30px solid #b9e0f2;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+
+    & + .zero {
+      left: 225px;
+    }
+  }
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .big {
+    font-size: 6.5rem;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .small {
+    font-size: 2.5rem;
+    line-height: 20px;
+    padding: 12px;
+  }
+}

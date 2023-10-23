@@ -4,7 +4,7 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 
 # Projects:
 
-1. Credit Card UI Design
+1. [Credit Card UI Design](https://alin-trinca.github.io/100-Days-of-CSS/001%20Credit%20Card%20UI%20Design/dist/index.html)
 2. Task Tracker UI Design
 3. CSS Modal Window
 4. Pricing Table UI

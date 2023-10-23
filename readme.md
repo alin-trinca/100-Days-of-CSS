@@ -8,7 +8,7 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 2. [Task Tracker UI Design](https://alin-trinca.github.io/100-Days-of-CSS/002%20Task%20Tracker%20UI%20Design/dist/index.html)
 3. [CSS Modal Window](https://alin-trinca.github.io/100-Days-of-CSS/003%20CSS%20Modal%20Window/dist/index.html)
 4. [Pricing Table UI](https://alin-trinca.github.io/100-Days-of-CSS/004%20Pricing%20Table%20UI/dist/index.html)
-5. [Signup Design UI](https://alin-trinca.github.io/100-Days-of-CSS/005%20Signup%20Design%20UI/dist/index.html)
+5. [Signup Design UI](https://alin-trinca.github.io/100-Days-of-CSS/005%20Signup%20UI%20Design/dist/index.html)
 6. [Dot pagination](https://alin-trinca.github.io/100-Days-of-CSS/006%20Dot%20Pagination/dist/index.html)
 7. [CSS Fitness Tracker](https://alin-trinca.github.io/100-Days-of-CSS/007%20CSS%20Fitness%20Tracker/dist/index.html)
 8. [CSS Checklist](https://alin-trinca.github.io/100-Days-of-CSS/008%20CSS%20Checklist/dist/index.html)

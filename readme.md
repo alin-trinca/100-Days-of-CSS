@@ -5,15 +5,15 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 # Projects:
 
 1. [Credit Card UI Design](https://alin-trinca.github.io/100-Days-of-CSS/001%20Credit%20Card%20UI%20Design/dist/index.html)
-2. Task Tracker UI Design
-3. CSS Modal Window
-4. Pricing Table UI
-5. Signup Design UI
-6. Dot pagination
-7. CSS Fitness Tracker
-8. CSS Checklist
-9. CSS Loading Circle
-10. CSS Lightbulb
+2. [Task Tracker UI Design](https://alin-trinca.github.io/100-Days-of-CSS/002%20Credit%20Card%20UI%20Design/dist/index.html)
+3. [CSS Modal Window](https://alin-trinca.github.io/100-Days-of-CSS/003%20Credit%20Card%20UI%20Design/dist/index.html)
+4. [Pricing Table UI](https://alin-trinca.github.io/100-Days-of-CSS/004%20Credit%20Card%20UI%20Design/dist/index.html)
+5. [Signup Design UI](https://alin-trinca.github.io/100-Days-of-CSS/005%20Credit%20Card%20UI%20Design/dist/index.html)
+6. [Dot pagination](https://alin-trinca.github.io/100-Days-of-CSS/006%20Credit%20Card%20UI%20Design/dist/index.html)
+7. [CSS Fitness Tracker](https://alin-trinca.github.io/100-Days-of-CSS/007%20Credit%20Card%20UI%20Design/dist/index.html)
+8. [CSS Checklist](https://alin-trinca.github.io/100-Days-of-CSS/008%20CSS%20Loading%20Circle/dist/index.html)
+9. [CSS Loading Circle](https://alin-trinca.github.io/100-Days-of-CSS/009%20CSS%20Loading%20Circle/dist/index.html)
+10. [CSS Lightbulb](https://alin-trinca.github.io/100-Days-of-CSS/010%20CSS%20Lightbulb/dist/index.html)
 11. Hover Effect
 12. CSS Sparkling Checkbox
 13. CSS Word Carousel

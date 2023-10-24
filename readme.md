@@ -22,38 +22,38 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 16. [CSS Tabs](https://alin-trinca.github.io/100-Days-of-CSS/016%20CSS%20Tabs/dist/index.html)
 17. [CSS Animated Candle](https://alin-trinca.github.io/100-Days-of-CSS/017%20CSS%20Animated%20Candle/dist/index.html)
 18. [CSS Newton's Cradle](https://alin-trinca.github.io/100-Days-of-CSS/018%20CSS%20Newton's%20Cradle/dist/index.html)
-19. [User Profile](https://alin-trinca.github.io/100-Days-of-CSS/019%20User%20Profile/dist/index.html)
+19. [User Profile](https://alin-trinca.github.io/100-Days-of-CSS/019%20User%20profile/dist/index.html)
 20. [Send Email Animation](https://alin-trinca.github.io/100-Days-of-CSS/020%20Send%20Email%20Animation/dist/index.html)
-21. Sidebar Navigation Bar
-22. Social Media Buttons
-23. CSS Custom Checkbox
-24. CSS Custom Toogle Switch
-25. Custom Input Text
-26. CSS Star Rating
-27. Checkout Form
-28. Cookies Notification
-29. CSS Playing Card
-30. CSS Reviews
-31. Progress Steps
-32. Search Widget
-33. Split Landing Page
-34. FAQ Collapse
-35. Custom Range Slider
-36. Kinetic Loader
-37. Sticky Navigation
-38. Mobile Navigation
-39. CSS Timeline
-40. CSS Contact Form
-41. Glowing Neon Buttons
-42. Card Hover Effect
-43. Dropmorphism
-44. Responsive Image Gallery
-45. 3D Button Hover Animation
-46. Responsive Pricing Cards
-47. Neumorphic Login Form
-48. Animated Login & SignUp Form
-49. Side Navigation Bar
-50. Task Management Dashboard
+21. [Sidebar Navigation Bar](https://alin-trinca.github.io/100-Days-of-CSS/021%20Sidebar%20Navigation%20Bar/dist/index.html)
+22. [Social Media Buttons](https://alin-trinca.github.io/100-Days-of-CSS/022%20Social%20Media%20Buttons/dist/index.html)
+23. [CSS Custom Checkbox](https://alin-trinca.github.io/100-Days-of-CSS/023%20CSS%20Custom%20Checkbox/dist/index.html)
+24. [CSS Custom Toogle Switch](https://alin-trinca.github.io/100-Days-of-CSS/024%20CSS%20Custom%20Toogle%20Switch/dist/index.html)
+25. [Custom Input Text](https://alin-trinca.github.io/100-Days-of-CSS/025%20Custom%20Input%20Text/dist/index.html)
+26. [CSS Star Rating](https://alin-trinca.github.io/100-Days-of-CSS/026%20CSS%20Star%20Rating/dist/index.html)
+27. [Checkout Form](https://alin-trinca.github.io/100-Days-of-CSS/027%20Checkout%20Form/dist/index.html)
+28. [Cookies Notification](https://alin-trinca.github.io/100-Days-of-CSS/028%20Cookies%20Notification/dist/index.html)
+29. [CSS Playing Card](https://alin-trinca.github.io/100-Days-of-CSS/029%20CSS%20Playing%20Card/dist/index.html)
+30. [CSS Reviews](https://alin-trinca.github.io/100-Days-of-CSS/030%20CSS%20Reviews/dist/index.html)
+31. [Progress Steps](https://alin-trinca.github.io/100-Days-of-CSS/031%20Progress%20Steps/dist/index.html)
+32. [Search Widget](https://alin-trinca.github.io/100-Days-of-CSS/032%20Search%20Widget/dist/index.html)
+33. [Split Landing Page](https://alin-trinca.github.io/100-Days-of-CSS/033%20Split%20Landing%20Page/dist/index.html)
+34. [FAQ Collapse](https://alin-trinca.github.io/100-Days-of-CSS/034%20FAQ%20Collapse/dist/index.html)
+35. [Custom Range Slider](https://alin-trinca.github.io/100-Days-of-CSS/035%20Custom%20Range%20Slider/dist/index.html)
+36. [Kinetic Loader](https://alin-trinca.github.io/100-Days-of-CSS/036%20Kinetic%20Loader/dist/index.html)
+37. [Sticky Navigation](https://alin-trinca.github.io/100-Days-of-CSS/037%20Sticky%20Navigation/dist/index.html)
+38. [Mobile Navigation](https://alin-trinca.github.io/100-Days-of-CSS/038%20Mobile%20Navigation/dist/index.html)
+39. [CSS Timeline](https://alin-trinca.github.io/100-Days-of-CSS/039%20CSS%20Timeline/dist/index.html)
+40. [CSS Contact Form](https://alin-trinca.github.io/100-Days-of-CSS/040%20CSS%20Contact%20Form/dist/index.html)
+41. [Glowing Neon Buttons](https://alin-trinca.github.io/100-Days-of-CSS/041%20Glowing%20Neon%20Buttons/dist/index.html)
+42. [Card Hover Effect](https://alin-trinca.github.io/100-Days-of-CSS/042%20Card%20Hover%20Effect/dist/index.html)
+43. [Dropmorphism](https://alin-trinca.github.io/100-Days-of-CSS/043%20Dropmorphism/dist/index.html)
+44. [Responsive Image Gallery](https://alin-trinca.github.io/100-Days-of-CSS/044%20Responsive%20Image%20Gallery/dist/index.html)
+45. [3D Button Hover Animation](https://alin-trinca.github.io/100-Days-of-CSS/045%203D%20Button%20Hover%20Animation/dist/index.html)
+46. [Responsive Pricing Cards](https://alin-trinca.github.io/100-Days-of-CSS/046%20Responsive%20Pricing%20Cards/dist/index.html)
+47. [Neumorphic Login Form](https://alin-trinca.github.io/100-Days-of-CSS/047%20Neumorphic%20Login%20Form/dist/index.html)
+48. [Animated Login & SignUp Form](https://alin-trinca.github.io/100-Days-of-CSS/048%20Animated%20Login%&%20SignUp%20Form/dist/index.html)
+49. [Side Navigation Bar](https://alin-trinca.github.io/100-Days-of-CSS/049%20Side%20Navigation%20Bar/dist/index.html)
+50. [Task Management Dashboard](https://alin-trinca.github.io/100-Days-of-CSS/050%20Task%20Management%20Dashboard/dist/index.html)
 51. Netflix CSS Logo
 52. Google CSS Logo
 53. Nike CSS Logo

@@ -51,7 +51,7 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 45. [3D Button Hover Animation](https://alin-trinca.github.io/100-Days-of-CSS/045%203D%20Button%20Hover%20Animation/dist/index.html)
 46. [Responsive Pricing Cards](https://alin-trinca.github.io/100-Days-of-CSS/046%20Responsive%20Pricing%20Cards/dist/index.html)
 47. [Neumorphic Login Form](https://alin-trinca.github.io/100-Days-of-CSS/047%20Neumorphic%20Login%20Form/dist/index.html)
-48. [Animated Login & SignUp Form](https://alin-trinca.github.io/100-Days-of-CSS/048%20Animated%20Login%&%20SignUp%20Form/dist/index.html)
+48. [Animated Login & SignUp Form](https://alin-trinca.github.io/100-Days-of-CSS/048%20Animated%20Login%20%26%20SignUp%20Form/dist/index.html)
 49. [Side Navigation Bar](https://alin-trinca.github.io/100-Days-of-CSS/049%20Side%20Navigation%20Bar/dist/index.html)
 50. [Task Management Dashboard](https://alin-trinca.github.io/100-Days-of-CSS/050%20Task%20Management%20Dashboard/dist/index.html)
 51. Netflix CSS Logo

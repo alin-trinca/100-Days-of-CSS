@@ -14,16 +14,16 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 8. [CSS Checklist](https://alin-trinca.github.io/100-Days-of-CSS/008%20CSS%20Checklist/dist/index.html)
 9. [CSS Loading Circle](https://alin-trinca.github.io/100-Days-of-CSS/009%20CSS%20Loading%20Circle/dist/index.html)
 10. [CSS Lightbulb](https://alin-trinca.github.io/100-Days-of-CSS/010%20CSS%20Lightbulb/dist/index.html)
-11. Hover Effect
-12. CSS Sparkling Checkbox
-13. CSS Word Carousel
-14. CSS Gradient Transition
-15. Hue Effect
-16. CSS Tabs
-17. CSS Animated Candle
-18. CSS Newton's Cradle
-19. User Profile
-20. Send Email Animation
+11. [Hover Effect](https://alin-trinca.github.io/100-Days-of-CSS/011%20Hover%20Effect/dist/index.html)
+12. [CSS Sparkling Checkbox](https://alin-trinca.github.io/100-Days-of-CSS/012%20CSS%20Sparkling%20Checkbox/dist/index.html)
+13. [CSS Word Carousel](https://alin-trinca.github.io/100-Days-of-CSS/013%20CSS%20Word%20Carousel/dist/index.html)
+14. [CSS Gradient Transition](https://alin-trinca.github.io/100-Days-of-CSS/014%20CSS%20Gradient%20Transition/dist/index.html)
+15. [Hue Effect](https://alin-trinca.github.io/100-Days-of-CSS/015%20Hue%20Effect/dist/index.html)
+16. [CSS Tabs](https://alin-trinca.github.io/100-Days-of-CSS/016%20CSS%20Tabs/dist/index.html)
+17. [CSS Animated Candle](https://alin-trinca.github.io/100-Days-of-CSS/017%20CSS%20Animated%20Candle/dist/index.html)
+18. [CSS Newton's Cradle](https://alin-trinca.github.io/100-Days-of-CSS/018%20CSS%20Newton's%20Cradle/dist/index.html)
+19. [User Profile](https://alin-trinca.github.io/100-Days-of-CSS/019%20User%20Profile/dist/index.html)
+20. [Send Email Animation](https://alin-trinca.github.io/100-Days-of-CSS/020%20Send%20Email%20Animation/dist/index.html)
 21. Sidebar Navigation Bar
 22. Social Media Buttons
 23. CSS Custom Checkbox

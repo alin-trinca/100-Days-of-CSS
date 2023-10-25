@@ -54,53 +54,53 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 48. [Animated Login & SignUp Form](https://alin-trinca.github.io/100-Days-of-CSS/048%20Animated%20Login%20%26%20SignUp%20Form/dist/index.html)
 49. [Side Navigation Bar](https://alin-trinca.github.io/100-Days-of-CSS/049%20Side%20Navigation%20Bar/dist/index.html)
 50. [Task Management Dashboard](https://alin-trinca.github.io/100-Days-of-CSS/050%20Task%20Management%20Dashboard/dist/index.html)
-51. Netflix CSS Logo
-52. Google CSS Logo
-53. Nike CSS Logo
-54. Instagram CSS Logo
-55. TikTok CSS Logo
-56. Adidas CSS Logo
-57. Gmail CSS Logo
-58. YouTube CSS Logo
-59. React CSS Logo
-60. Twitter X Logo
-61. Responsive Card Slider
-62. Responsive Cards Design
-63. Blog Card Slider
-64. Profile Card Slider
-65. Ecommerce Product Card
-66. Product Card Design
-67. Vertical Card Sliding Animation
-68. Email Subscription Box
-69. Neumorphism Keyboard
-70. Error Page Design
-71. Wow Facebook Reaction
-72. Navigation Menu Animation
-73. Navigation Links Hover
-74. Animated Skills Bar
-75. Animated Background Effect
-76. Fixed Social Media Sidebar
-77. Glowing Cube
-78. CSS Tabs
-79. Responsive Footer
-80. Neumorphism Loading Spinner
-81. Rainy Night
-82. CSS Tooltip
-83. Slider with Radio Buttons
-84. Ring Notification
-85. Line Through Effect
-86. Tricky Cookie
-87. Gravity Switch
-88. Image Reflection
-89. Responsive Table
-90. Loading Animation
-91. Overlap Text Effect
-92. Read More / Read Less
-93. Text Stroke
-94. Rainbow Border Animation
-95. Netflix Login Page
-96. Facebook Login Page
-97. Instagram Login Page
-98. GitHub Login Page
-99. Gmail Login Page
-100. 100 Days of CSS
+51. [Netflix CSS Logo](https://alin-trinca.github.io/100-Days-of-CSS/051%20Netflix%20CSS%20Logo/dist/index.html)
+52. [Google CSS Logo](https://alin-trinca.github.io/100-Days-of-CSS/052%20Google%20CSS%20Logo/dist/index.html)
+53. [Nike CSS Logo](https://alin-trinca.github.io/100-Days-of-CSS/053%20Nike%20CSS%20Logo/dist/index.html)
+54. [Instagram CSS Logo](https://alin-trinca.github.io/100-Days-of-CSS/054%20Instagram%20CSS%20Logo/dist/index.html)
+55. [TikTok CSS Logo](https://alin-trinca.github.io/100-Days-of-CSS/055%20TikTok%20CSS%20Logo/dist/index.html)
+56. [Adidas CSS Logo](https://alin-trinca.github.io/100-Days-of-CSS/056%20Adidas%20CSS%20Logo/dist/index.html)
+57. [Gmail CSS Logo](https://alin-trinca.github.io/100-Days-of-CSS/057%20Gmail%20CSS%20Logo/dist/index.html)
+58. [YouTube CSS Logo](https://alin-trinca.github.io/100-Days-of-CSS/058%20YouTube%20CSS%20Logo/dist/index.html)
+59. [React CSS Logo](https://alin-trinca.github.io/100-Days-of-CSS/059%20React%20CSS%20Logo/dist/index.html)
+60. [Twitter X Logo](https://alin-trinca.github.io/100-Days-of-CSS/060%20Twitter%20X%20Logo/dist/index.html)
+61. [Responsive Card Slider]
+62. [Responsive Cards Design]
+63. [Blog Card Slider]
+64. [Profile Card Slider]
+65. [Ecommerce Product Card]
+66. [Product Card Design]
+67. [Vertical Card Sliding Animation]
+68. [Email Subscription Box]
+69. [Neumorphism Keyboard]
+70. [Error Page Design]
+71. [Wow Facebook Reaction]
+72. [Navigation Menu Animation]
+73. [Navigation Links Hover]
+74. [Animated Skills Bar]
+75. [Animated Background Effect]
+76. [Fixed Social Media Sidebar]
+77. [Glowing Cube]
+78. [CSS Tabs]
+79. [Responsive Footer]
+80. [Neumorphism Loading Spinner]
+81. [Rainy Night]
+82. [CSS Tooltip]
+83. [Slider with Radio Buttons]
+84. [Ring Notification]
+85. [Line Through Effect]
+86. [Tricky Cookie]
+87. [Gravity Switch]
+88. [Image Reflection]
+89. [Responsive Table]
+90. [Loading Animation]
+91. [Overlap Text Effect]
+92. [Read More / Read Less]
+93. [Text Stroke]
+94. [Rainbow Border Animation]
+95. [Netflix Login Page]
+96. [Facebook Login Page]
+97. [Instagram Login Page]
+98. [GitHub Login Page]
+99. [Gmail Login Page]
+100. [100 Days of CSS]

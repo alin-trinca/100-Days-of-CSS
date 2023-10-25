@@ -64,43 +64,43 @@ _100 Days of CSS_ is a personal project where I challenge myself to create and s
 58. [YouTube CSS Logo](https://alin-trinca.github.io/100-Days-of-CSS/058%20YouTube%20CSS%20Logo/dist/index.html)
 59. [React CSS Logo](https://alin-trinca.github.io/100-Days-of-CSS/059%20React%20CSS%20Logo/dist/index.html)
 60. [Twitter X Logo](https://alin-trinca.github.io/100-Days-of-CSS/060%20Twitter%20X%20Logo/dist/index.html)
-61. [Responsive Card Slider]
-62. [Responsive Cards Design]
-63. [Blog Card Slider]
-64. [Profile Card Slider]
-65. [Ecommerce Product Card]
-66. [Product Card Design]
-67. [Vertical Card Sliding Animation]
-68. [Email Subscription Box]
-69. [Neumorphism Keyboard]
-70. [Error Page Design]
-71. [Wow Facebook Reaction]
-72. [Navigation Menu Animation]
-73. [Navigation Links Hover]
-74. [Animated Skills Bar]
-75. [Animated Background Effect]
-76. [Fixed Social Media Sidebar]
-77. [Glowing Cube]
-78. [CSS Tabs]
-79. [Responsive Footer]
-80. [Neumorphism Loading Spinner]
-81. [Rainy Night]
-82. [CSS Tooltip]
-83. [Slider with Radio Buttons]
-84. [Ring Notification]
-85. [Line Through Effect]
-86. [Tricky Cookie]
-87. [Gravity Switch]
-88. [Image Reflection]
-89. [Responsive Table]
-90. [Loading Animation]
-91. [Overlap Text Effect]
-92. [Read More / Read Less]
-93. [Text Stroke]
-94. [Rainbow Border Animation]
-95. [Netflix Login Page]
-96. [Facebook Login Page]
-97. [Instagram Login Page]
-98. [GitHub Login Page]
-99. [Gmail Login Page]
-100. [100 Days of CSS]
+61. [Responsive Card Slider](https://alin-trinca.github.io/100-Days-of-CSS/061%20Responsive%20Card%20Slider/dist/index.html)
+62. [Responsive Cards Design](https://alin-trinca.github.io/100-Days-of-CSS/062%20Responsive%20Cards%20Design/dist/index.html)
+63. [Blog Card Slider](https://alin-trinca.github.io/100-Days-of-CSS/063%20Blog%20Card%20Slider/dist/index.html)
+64. [Profile Card Slider](https://alin-trinca.github.io/100-Days-of-CSS/064%20Profile%20Card%20Slider/dist/index.html)
+65. [Ecommerce Product Card](https://alin-trinca.github.io/100-Days-of-CSS/065%20Ecommerce%20Product%20Card/dist/index.html)
+66. [Product Card Design](https://alin-trinca.github.io/100-Days-of-CSS/066%20Product%20Card%20Design/dist/index.html)
+67. [Vertical Card Sliding Animation](https://alin-trinca.github.io/100-Days-of-CSS/067%20Vertical%20Card%20Sliding%20Animation/dist/index.html)
+68. [Email Subscription Box](https://alin-trinca.github.io/100-Days-of-CSS/068%20Email%20Subscription%20Box/dist/index.html)
+69. [Neumorphism Keyboard](https://alin-trinca.github.io/100-Days-of-CSS/069%20Neumorphism%20Keyboard/dist/index.html)
+70. [Error Page Design](https://alin-trinca.github.io/100-Days-of-CSS/070%20Error%20Page%20Design/dist/index.html)
+71. [Wow Facebook Reaction](https://alin-trinca.github.io/100-Days-of-CSS/071%20Wow%20Facebook%20Reaction/dist/index.html)
+72. [Navigation Menu Animation](https://alin-trinca.github.io/100-Days-of-CSS/072%20Navigation%20Menu%20Animation/dist/index.html)
+73. [Navigation Links Hover](https://alin-trinca.github.io/100-Days-of-CSS/073%20Navigation%20Links%20Hover/dist/index.html)
+74. [Animated Skills Bar](https://alin-trinca.github.io/100-Days-of-CSS/074%20Animated%20Skills%20Bar/dist/index.html)
+75. [Animated Background Effect](https://alin-trinca.github.io/100-Days-of-CSS/075%20Animated%20Background%20Effect/dist/index.html)
+76. [Fixed Social Media Sidebar](https://alin-trinca.github.io/100-Days-of-CSS/076%20Fixed%20Social%20Media%20Sidebar/dist/index.html)
+77. [Glowing Cube](https://alin-trinca.github.io/100-Days-of-CSS/077%20Glowing%20Cube/dist/index.html)
+78. [CSS Tabs](https://alin-trinca.github.io/100-Days-of-CSS/078%20CSS%20Tabs/dist/index.html)
+79. [Responsive Footer](https://alin-trinca.github.io/100-Days-of-CSS/079%20Responsive%20Footer/dist/index.html)
+80. [Neumorphism Loading Spinner](https://alin-trinca.github.io/100-Days-of-CSS/080%20Neumorphism%20Loading%20Spinner/dist/index.html)
+81. [Rainy Night](https://alin-trinca.github.io/100-Days-of-CSS/081%20Rainy%20Night/dist/index.html)
+82. [CSS Tooltip](https://alin-trinca.github.io/100-Days-of-CSS/082%20CSS%20Tooltip/dist/index.html)
+83. [Slider with Radio Buttons](https://alin-trinca.github.io/100-Days-of-CSS/083%20Slider%20with%20Radio%20Buttons/dist/index.html)
+84. [Ring Notification](https://alin-trinca.github.io/100-Days-of-CSS/084%20Ring%20Notification/dist/index.html)
+85. [Line Through Effect](https://alin-trinca.github.io/100-Days-of-CSS/085%20Line%20Through%20Effect/dist/index.html)
+86. [Tricky Cookie](https://alin-trinca.github.io/100-Days-of-CSS/086%20Tricky%20Cookie/dist/index.html)
+87. [Gravity Switch](https://alin-trinca.github.io/100-Days-of-CSS/087%20Gravity%20Switch/dist/index.html)
+88. [Image Reflection](https://alin-trinca.github.io/100-Days-of-CSS/088%20Image%20Reflection/dist/index.html)
+89. [Responsive Table](https://alin-trinca.github.io/100-Days-of-CSS/089%20Responsive%20Table/dist/index.html)
+90. [Loading Animation](https://alin-trinca.github.io/100-Days-of-CSS/090%20Loading%20Animation/dist/index.html)
+91. [Overlap Text Effect](https://alin-trinca.github.io/100-Days-of-CSS/091%20Overlap%20Text%20Effect/dist/index.html)
+92. [Read More / Read Less](https://alin-trinca.github.io/100-Days-of-CSS/092%20Read%20More%20-%20Read%20Less/dist/index.html)
+93. [Text Stroke](https://alin-trinca.github.io/100-Days-of-CSS/093%20Text%20Stroke/dist/index.html)
+94. [Rainbow Border Animation](https://alin-trinca.github.io/100-Days-of-CSS/094%20Rainbow%20Border%20Animation/dist/index.html)
+95. [Netflix Login Page](https://alin-trinca.github.io/100-Days-of-CSS/095%20Netflix%20Login%20Page/dist/index.html)
+96. [Facebook Login Page](https://alin-trinca.github.io/100-Days-of-CSS/096%20Facebook%20Login%20Page/dist/index.html)
+97. [Instagram Login Page](https://alin-trinca.github.io/100-Days-of-CSS/097%20Instagram%20Login%20Page/dist/index.html)
+98. [GitHub Login Page](https://alin-trinca.github.io/100-Days-of-CSS/098%20GitHub%20Login%20Page/dist/index.html)
+99. [Gmail Login Page](https://alin-trinca.github.io/100-Days-of-CSS/099%20Gmail%20Login%20Page/dist/index.html)
+100. [100 Days of CSS](https://alin-trinca.github.io/100-Days-of-CSS/100%20Days%20of%20CSS/dist/index.html)
